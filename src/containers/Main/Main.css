@@ -1,0 +1,11 @@
+.list {
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
+
+.listsList {
+	display: flex;
+	justify-content: flex-start;
+	width: 250px;
+}
