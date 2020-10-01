@@ -6,7 +6,7 @@ import { RequestLists } from './containers/Main/components/ListsList/reducers';
 
 
 const JoinedReducers = combineReducers({
-	AddAnotherListButtonClicked, 
+	AddAnotherListButtonClicked,
 	AddNewListName,
 	NewListSubmitButtonClicked,
 	RequestLists

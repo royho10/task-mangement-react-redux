@@ -6,7 +6,10 @@ export const setNewListTitle = (text) => ({
 	payload: text
 });
 
-export const NewListSubmitButtonClicked = (newListName) => ({
+export const NewListSubmitButtonClicked = (newListName, id) => ({
 	type: NEW_LIST_SUBMIT_BUTTON_CLICKED,
-	payload: newListName
+	payload: {
+				newListName: newListName, 
+				newListId: id
+			}
 });

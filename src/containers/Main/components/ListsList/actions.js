@@ -1,6 +1,7 @@
-import { REQUEST_TASKS } from './constants';
+import { REQUEST_LISTS } from './constants';
+import { lists } from '../../lists';
 
-export const requestTasks = () => ({
-	type: REQUEST_TASKS,
-	payload: newListName
+export const requestLists = () => ({
+	type: REQUEST_LISTS,
+	payload: lists
 });
